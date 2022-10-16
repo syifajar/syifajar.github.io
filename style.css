@@ -1,0 +1,70 @@
+body {
+  overflow-y: hidden;
+  background-image: url("./img/bg-ww2.png");
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.offcanvas-body {
+  background-image: url("./img/bw-ww-bottom.png");
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Small devices (potraits phones, 360px and up) */
+@media (min-width: 360px) {
+  #gallery {
+    padding-top: 40px;
+    padding: auto;
+  }
+
+  .hero {
+    padding-top: 150px;
+    text-align: center;
+  }
+
+  .hero nav {
+    justify-content: center;
+  }
+
+  .hero img {
+    width: 240px;
+    min-height: 50px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 150px;
+  }
+
+  .hero-title {
+    padding-top: 60px;
+  }
+
+  .location {
+    padding-left: 50px;
+  }
+
+  .hero nav {
+    padding-left: 110px;
+  }
+
+  #contact {
+    padding-top: 150px;
+  }
+
+  #gallery {
+    padding-top: 140px;
+  }
+
+  .hero img {
+    width: 350px;
+    min-height: 50px;
+  }
+}
